@@ -46,7 +46,7 @@ function fetchBrand(req, res) {
 
   var curCount = 0;
   var reptileMove = function (url, callback) {
-    var startTime = Date.now(); // 记录该次爬取的开始时间
+  var startTime = Date.now(); // 记录该次爬取的开始时间
 
     request({
       url: url,
